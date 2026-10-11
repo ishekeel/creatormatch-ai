@@ -1,0 +1,66 @@
+import { Achievement, CreatorCreditItem } from '@/types';
+
+export const mockAchievements: Achievement[] = [
+  {
+    id: 'ach-winner',
+    title: 'Campaign Winner',
+    icon: '🏆',
+    description: 'Awarded 1st place in a brand campaign or creative challenge.',
+    category: 'Competitions',
+    unlocked: false,
+    progress: 0,
+    maxProgress: 3,
+  },
+  {
+    id: 'ach-creative-master',
+    title: 'Creative Master',
+    icon: '🔥',
+    description: 'Score over 90/100 on 5 consecutive AI Content Quality evaluations.',
+    category: 'Content Quality',
+    unlocked: false,
+    progress: 0,
+    maxProgress: 5,
+  },
+  {
+    id: 'ach-top-performer',
+    title: 'Top Performer',
+    icon: '⭐',
+    description: 'Rank among top 5% creators in campaign engagement and ROI delivery.',
+    category: 'Performance',
+    unlocked: false,
+    progress: 0,
+    maxProgress: 10,
+  },
+  {
+    id: 'ach-beauty-specialist',
+    title: 'Beauty Specialist',
+    icon: '💄',
+    description: 'Complete 10 verified beauty & skincare collaborations with high brand ratings.',
+    category: 'Niche Expertise',
+    unlocked: false,
+    progress: 0,
+    maxProgress: 10,
+  },
+  {
+    id: 'ach-conversion-expert',
+    title: 'Conversion Expert',
+    icon: '📈',
+    description: 'Generate over 1,000 verified trackable product clicks in a single campaign.',
+    category: 'Sales & Impact',
+    unlocked: false,
+    progress: 0,
+    maxProgress: 1000,
+  },
+  {
+    id: 'ach-rising-creator',
+    title: 'Rising Creator',
+    icon: '🚀',
+    description: 'Maintain an engagement rate exceeding 7% across all social platforms.',
+    category: 'Growth',
+    unlocked: false,
+    progress: 0,
+    maxProgress: 7.0,
+  },
+];
+
+export const mockInitialCredits: CreatorCreditItem[] = [];

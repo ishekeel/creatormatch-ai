@@ -1,0 +1,36 @@
+# Render Infrastructure-as-Code Blueprint
+# Deploy both services or pick one on Render Free Tier (https://render.com)
+services:
+  # ---------------------------------------------------------------------------
+  # 1. Full-Stack Web Application (Next.js 14 + Frontend + Integrated API Engine)
+  # ---------------------------------------------------------------------------
+  - type: web
+    name: creatormatch-ai
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: npm install && npm run build
+    startCommand: npm run start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+
+  # ---------------------------------------------------------------------------
+  # 2. Standalone Backend Microservice API (Express + Database Engine + AI Matching)
+  # ---------------------------------------------------------------------------
+  - type: web
+    name: creatormatch-api
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: npm install
+    startCommand: npm run server
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000

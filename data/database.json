@@ -1,0 +1,533 @@
+{
+  "version": 2,
+  "users": [
+    {
+      "id": "user-creator-1791668747647",
+      "email": "ishekeel@gmail.com",
+      "password_hash": "password123",
+      "role": "creator",
+      "name": "shekeel",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
+      "last_login_at": "2026-10-10T21:45:47.647Z",
+      "is_logged_in": false,
+      "created_at": "2026-10-10T21:45:47.647Z",
+      "updated_at": "2026-10-10T21:46:55.518Z"
+    },
+    {
+      "id": "user-creator-1791669992938",
+      "email": "varun@123",
+      "password_hash": "123456789",
+      "role": "creator",
+      "name": "varun",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
+      "last_login_at": "2026-10-11T00:36:39.523Z",
+      "is_logged_in": true,
+      "created_at": "2026-10-10T22:06:32.938Z",
+      "updated_at": "2026-10-11T00:36:39.523Z"
+    },
+    {
+      "id": "user-brand-1791670670135",
+      "email": "teju@123",
+      "password_hash": "123456789",
+      "role": "brand",
+      "name": "nexora",
+      "avatar": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=150&auto=format&fit=crop&q=80",
+      "last_login_at": "2026-10-11T00:35:19.227Z",
+      "is_logged_in": false,
+      "created_at": "2026-10-10T22:17:50.135Z",
+      "updated_at": "2026-10-11T00:36:06.376Z"
+    },
+    {
+      "id": "user-creator-1791676837263",
+      "email": "jahnavinarlapuram@gmail.com",
+      "password_hash": "jaanu123",
+      "role": "creator",
+      "name": "jahnavi",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
+      "last_login_at": "2026-10-11T00:00:37.263Z",
+      "is_logged_in": false,
+      "created_at": "2026-10-11T00:00:37.263Z",
+      "updated_at": "2026-10-11T00:03:28.683Z"
+    }
+  ],
+  "brand_profiles": [
+    {
+      "id": "brand-1791670670142",
+      "user_id": "user-brand-1791670670135",
+      "brand_name": "nexora",
+      "logo": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=150&auto=format&fit=crop&q=80",
+      "description": "nexora specializes in Fashion & Apparel.",
+      "industry": "Fashion & Apparel",
+      "sector_key": "fashion & apparel",
+      "location": "hanumakonda",
+      "operating_duration": "1 Year",
+      "established_year": "2026",
+      "website": "",
+      "products": [],
+      "target_audience": {
+        "age": "18-34",
+        "gender": "All",
+        "location": "hanumakonda",
+        "interests": [],
+        "description": "Consumers interested in Fashion & Apparel"
+      },
+      "preferred_platforms": [
+        "Instagram",
+        "YouTube"
+      ],
+      "preferred_creator_categories": [],
+      "budget_range": "₹50,000 - ₹2,00,000",
+      "stats": {
+        "active_campaigns": 1,
+        "creators_collaborating": 0,
+        "total_reach": "0K",
+        "avg_engagement": "0%",
+        "conversions": 0,
+        "roi": "0x"
+      },
+      "created_at": "2026-10-10T22:17:50.142Z",
+      "updated_at": "2026-10-10T22:17:50.142Z"
+    }
+  ],
+  "creator_profiles": [
+    {
+      "id": "creator-1791668747652",
+      "user_id": "user-creator-1791668747647",
+      "creator_name": "shekeel",
+      "handle": "seej",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
+      "email": "ishekeel@gmail.com",
+      "bio": "Content creator specializing in fashion.",
+      "niche": [
+        "fashion"
+      ],
+      "primary_sector_key": "fashion",
+      "categories": [
+        "Reels"
+      ],
+      "content_types": [
+        "Reels",
+        "Shorts"
+      ],
+      "location": "siddipet",
+      "languages": [
+        "telugu"
+      ],
+      "social_platforms": [
+        {
+          "platform": "instagram",
+          "handle": "@shekeel",
+          "url": "https://instagram.com",
+          "followers": 15000,
+          "engagement": 6.5
+        }
+      ],
+      "followers": 122222,
+      "followers_display": "122K",
+      "avg_views": "12K",
+      "engagement_rate": 3.8,
+      "engagement_display": "3.8%",
+      "creator_score": 82,
+      "creator_credits": 500,
+      "campaign_wins": 0,
+      "completed_campaigns": 0,
+      "total_reach": "15K",
+      "verified": false,
+      "audience_demographics": {
+        "age_breakdown": {
+          "18-24": 60,
+          "25-34": 30,
+          "35+": 10
+        },
+        "gender_split": {
+          "female": 50,
+          "male": 50,
+          "other": 0
+        },
+        "top_locations": [
+          "India (100%)"
+        ],
+        "top_interests": [
+          "Reels"
+        ]
+      },
+      "portfolio": [],
+      "skills": [
+        "Video Creation",
+        "Storytelling"
+      ],
+      "past_brands_worked_with": [],
+      "preferred_brand_categories": [],
+      "collaboration_preferences": {
+        "min_budget": 15000,
+        "preferred_deliverables": [
+          "Instagram Reel (9:16)"
+        ],
+        "open_to_gifting": true
+      },
+      "created_at": "2026-10-10T21:45:47.653Z",
+      "updated_at": "2026-10-10T21:45:47.653Z"
+    },
+    {
+      "id": "creator-1791669992942",
+      "user_id": "user-creator-1791669992938",
+      "creator_name": "varun",
+      "handle": "varun",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
+      "email": "varun@123",
+      "bio": "✨ Fashion Editor | Content Creator  \n👗 Fashion • Style • Lifestyle  \n🎬 Creating, editing & telling stories through content  \n📸 Turning ideas into creative visuals  \n🔥 Style. Creativity. Confidence.",
+      "niche": [
+        "fashion",
+        "editing",
+        "vediography"
+      ],
+      "primary_sector_key": "fashion",
+      "categories": [
+        "Reels"
+      ],
+      "content_types": [
+        "Reels",
+        "Shorts"
+      ],
+      "location": "hanumakonda",
+      "languages": [
+        "English"
+      ],
+      "social_platforms": [
+        {
+          "platform": "instagram",
+          "handle": "@varun",
+          "url": "https://instagram.com",
+          "followers": 15000,
+          "engagement": 6.5
+        }
+      ],
+      "followers": 201,
+      "followers_display": "0K",
+      "avg_views": "12K",
+      "engagement_rate": 7.7,
+      "engagement_display": "7.7%",
+      "creator_score": 82,
+      "creator_credits": 500,
+      "campaign_wins": 0,
+      "completed_campaigns": 0,
+      "total_reach": "15K",
+      "verified": false,
+      "audience_demographics": {
+        "age_breakdown": {
+          "18-24": 60,
+          "25-34": 30,
+          "35+": 10
+        },
+        "gender_split": {
+          "female": 50,
+          "male": 50,
+          "other": 0
+        },
+        "top_locations": [
+          "India (100%)"
+        ],
+        "top_interests": [
+          "Reels"
+        ]
+      },
+      "portfolio": [],
+      "skills": [
+        "Video Creation",
+        "Storytelling"
+      ],
+      "past_brands_worked_with": [],
+      "preferred_brand_categories": [],
+      "collaboration_preferences": {
+        "min_budget": 15000,
+        "preferred_deliverables": [
+          "Instagram Reel (9:16)"
+        ],
+        "open_to_gifting": true
+      },
+      "created_at": "2026-10-10T22:06:32.943Z",
+      "updated_at": "2026-10-10T22:06:32.943Z"
+    },
+    {
+      "id": "creator-1791676837267",
+      "user_id": "user-creator-1791676837263",
+      "creator_name": "jahnavi",
+      "handle": "jahnavi",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
+      "email": "jahnavinarlapuram@gmail.com",
+      "bio": "obbession : fasinated ",
+      "niche": [
+        "photography",
+        "video editing",
+        "fashion"
+      ],
+      "primary_sector_key": "photography",
+      "categories": [
+        "Reels"
+      ],
+      "content_types": [
+        "Reels",
+        "Shorts"
+      ],
+      "location": "siddipet",
+      "languages": [
+        "English"
+      ],
+      "social_platforms": [
+        {
+          "platform": "instagram",
+          "handle": "@jahnavi",
+          "url": "https://instagram.com",
+          "followers": 15000,
+          "engagement": 6.5
+        }
+      ],
+      "followers": 26,
+      "followers_display": "0K",
+      "avg_views": "12K",
+      "engagement_rate": 7.5,
+      "engagement_display": "7.5%",
+      "creator_score": 82,
+      "creator_credits": 500,
+      "campaign_wins": 0,
+      "completed_campaigns": 0,
+      "total_reach": "15K",
+      "verified": false,
+      "audience_demographics": {
+        "age_breakdown": {
+          "18-24": 60,
+          "25-34": 30,
+          "35+": 10
+        },
+        "gender_split": {
+          "female": 50,
+          "male": 50,
+          "other": 0
+        },
+        "top_locations": [
+          "India (100%)"
+        ],
+        "top_interests": [
+          "Reels"
+        ]
+      },
+      "portfolio": [],
+      "skills": [
+        "Video Creation",
+        "Storytelling"
+      ],
+      "past_brands_worked_with": [],
+      "preferred_brand_categories": [],
+      "collaboration_preferences": {
+        "min_budget": 15000,
+        "preferred_deliverables": [
+          "Instagram Reel (9:16)"
+        ],
+        "open_to_gifting": true
+      },
+      "created_at": "2026-10-11T00:00:37.267Z",
+      "updated_at": "2026-10-11T00:00:37.267Z"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "camp-1791671444618",
+      "brand_id": "brand-1791670670142",
+      "brand_name": "nexora",
+      "brand_logo": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=150&auto=format&fit=crop&q=80",
+      "name": "nexora Product Showcase Campaign",
+      "product": "Nexora Signature ShirtLine",
+      "category": "Fashion & Apparel",
+      "sector_key": "fashion & apparel",
+      "description": "Create a 15–20 second Reel featuring our Trendy Outfit T-Shirt. Showcase your creativity, fashion sense, and video-editing skills using trending music, smooth transitions, and engaging visuals. The product should be clearly promoted in a stylish and authentic way.\nHashtags: #NexoraHustle #NexoraSell\nBudget/Reward: ₹5,000\nContent Type: Fashion Reel / Short Video / Creative Edit",
+      "product_image": "https://images.unsplahttps://www.meesho.com/s/p/9s2t32?utm_source=share_dfeb3163f27ae986374674d7a186d34cda1e60aa363f844f74307d8b93f7a1fash.com/photo-1542272604-787c3835535d?w=600&auto=format&fit=crop&q=80",
+      "objective": "Sales",
+      "target_audience": {
+        "age": "18–32",
+        "gender": "All Demographic Groups",
+        "location": "hanumakonda",
+        "language": "English, Hindi",
+        "interests": [
+          "Fashion",
+          "Lifestyle",
+          "Modern Aesthetics"
+        ]
+      },
+      "required_platforms": [
+        "Instagram",
+        "YouTube"
+      ],
+      "deliverables": [
+        {
+          "id": "1",
+          "type": "Instagram Reel",
+          "quantity": 1,
+          "reward": 10000
+        },
+        {
+          "id": "2",
+          "type": "UGC Video",
+          "quantity": 1,
+          "reward": 5000
+        }
+      ],
+      "timeline": {
+        "startDate": "2026-06-11",
+        "endDate": "2026-06-11",
+        "submissionDeadline": "7 days"
+      },
+      "budget": 5000,
+      "reward_display": "₹5,000",
+      "deadline_display": "7 days",
+      "invited_creator_ids": [],
+      "accepted_creator_ids": [],
+      "applied_creator_ids": [],
+      "status": "active",
+      "reach": "0K",
+      "engagement": "0%",
+      "conversions": 0,
+      "created_at": "2026-10-10T22:30:44.619Z",
+      "updated_at": "2026-10-10T22:30:44.619Z"
+    },
+    {
+      "id": "camp-1791674601191",
+      "brand_id": "brand-1791670670142",
+      "brand_name": "nexora",
+      "brand_logo": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=150&auto=format&fit=crop&q=80",
+      "name": "nexora Product Showcase Campaign",
+      "product": "nexora Signature Line",
+      "category": "Fashion & Apparel",
+      "sector_key": "fashion & apparel",
+      "description": "Creator collaboration for nexora. Looking for authentic content creators to showcase product features, styling, and real-world results.",
+      "product_image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&auto=format&fit=crop&q=80",
+      "objective": "Product Launch",
+      "target_audience": {
+        "age": "18–32",
+        "gender": "All Demographic Groups",
+        "location": "hanumakonda",
+        "language": "English, Hindi",
+        "interests": [
+          "Fashion",
+          "Lifestyle",
+          "Modern Aesthetics"
+        ]
+      },
+      "required_platforms": [
+        "Instagram",
+        "YouTube"
+      ],
+      "deliverables": [
+        {
+          "id": "1",
+          "type": "Instagram Reel",
+          "quantity": 1,
+          "reward": 10000
+        },
+        {
+          "id": "2",
+          "type": "UGC Video",
+          "quantity": 1,
+          "reward": 5000
+        }
+      ],
+      "timeline": {
+        "startDate": "2025-06-01",
+        "endDate": "2025-06-30",
+        "submissionDeadline": "7 days"
+      },
+      "budget": 15000,
+      "reward_display": "₹15,000",
+      "deadline_display": "7 days",
+      "invited_creator_ids": [],
+      "accepted_creator_ids": [],
+      "applied_creator_ids": [],
+      "status": "active",
+      "reach": "0K",
+      "engagement": "0%",
+      "conversions": 0,
+      "created_at": "2026-10-10T23:23:21.191Z",
+      "updated_at": "2026-10-10T23:23:21.191Z"
+    }
+  ],
+  "matches": [],
+  "collaboration_requests": [],
+  "saved_creators": [],
+  "saved_brands": [],
+  "notifications": [],
+  "conversations": [
+    {
+      "id": "conv-brand-1791670670142-creator-1791669992942",
+      "brand_id": "user-brand-1791670670135",
+      "creator_id": "",
+      "participant_id": "",
+      "participant_name": "Creator",
+      "participant_avatar": "",
+      "participant_role": "creator",
+      "last_message": "hi sir, how can I help sir.",
+      "last_message_time": "Just now",
+      "unread_count": 0,
+      "created_at": "2026-10-11T00:33:05.197Z",
+      "updated_at": "2026-10-11T00:34:40.521Z"
+    },
+    {
+      "id": "conv-test",
+      "brand_id": "br-1",
+      "creator_id": "",
+      "participant_id": "",
+      "participant_name": "Creator",
+      "participant_avatar": "",
+      "participant_role": "creator",
+      "last_message": "Hi GlowRush! Love your products.",
+      "last_message_time": "Just now",
+      "unread_count": 0,
+      "created_at": "2026-10-11T00:29:28.661Z",
+      "updated_at": "2026-10-11T00:29:55.854Z"
+    }
+  ],
+  "messages": [
+    {
+      "conversation_id": "conv-test",
+      "sender_id": "br-1",
+      "sender_name": "GlowRush",
+      "sender_avatar": "",
+      "sender_role": "brand",
+      "text": "Hello creator!",
+      "timestamp": "Just now",
+      "id": "msg-1791678568663",
+      "created_at": "2026-10-11T00:29:28.663Z"
+    },
+    {
+      "conversation_id": "conv-test",
+      "sender_id": "cre-1",
+      "sender_name": "Rohan Sharma",
+      "sender_avatar": "",
+      "sender_role": "creator",
+      "text": "Hi GlowRush! Love your products.",
+      "timestamp": "Just now",
+      "id": "msg-1791678595854",
+      "created_at": "2026-10-11T00:29:55.854Z"
+    },
+    {
+      "conversation_id": "conv-brand-1791670670142-creator-1791669992942",
+      "sender_id": "user-brand-1791670670135",
+      "sender_name": "nexora",
+      "sender_avatar": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=150&auto=format&fit=crop&q=80",
+      "sender_role": "brand",
+      "text": "hello",
+      "timestamp": "Just now",
+      "id": "msg-1791678785199",
+      "created_at": "2026-10-11T00:33:05.199Z"
+    },
+    {
+      "conversation_id": "conv-brand-1791670670142-creator-1791669992942",
+      "sender_id": "user-creator-1791669992938",
+      "sender_name": "varun",
+      "sender_avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80",
+      "sender_role": "creator",
+      "text": "hi sir, how can I help sir.",
+      "timestamp": "Just now",
+      "id": "msg-1791678880521",
+      "created_at": "2026-10-11T00:34:40.521Z"
+    }
+  ]
+}
